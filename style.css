@@ -1,0 +1,48 @@
+:root {
+  color-scheme: light;
+  font-family: Inter, system-ui, sans-serif;
+  color: #202823;
+  background: #fbfaf5;
+  line-height: 1.6;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 65rem;
+  padding: 1.5rem clamp(1rem, 4vw, 3rem);
+}
+
+a {
+  color: #195538;
+  text-underline-offset: 0.2em;
+}
+
+a:focus-visible, [tabindex]:focus-visible {
+  outline: 0.2rem solid #195538;
+  outline-offset: 0.2rem;
+}
+
+.skip {
+  position: absolute;
+  transform: translateY(-300%);
+  background: #fbfaf5;
+  padding: 0.5rem;
+}
+
+.skip:focus { transform: translateY(0); }
+.brand { font-weight: 700; }
+nav ul { display: flex; flex-wrap: wrap; gap: 0.45rem 1rem; list-style: none; padding: 0; }
+nav a[aria-current] { font-weight: 700; }
+header, footer { border-block-color: #b9c4b9; border-block-style: solid; }
+header { border-width: 0 0 1px; }
+footer { border-width: 1px 0 0; padding-top: 1rem; }
+main { padding: 1rem 0 3rem; }
+h1 { font-family: "Crimson Text", ui-serif, serif; font-size: clamp(2rem, 5vw, 3.75rem); line-height: 1.15; }
+p, li, dd { max-width: 72ch; }
+.lead { font-size: 1.35rem; }
+dt { font-weight: 700; margin-top: 1rem; }
+dd { margin-inline-start: 0; }
+.table-wrap { overflow-x: auto; }
+table { border-collapse: collapse; width: 100%; }
+caption { text-align: left; font-weight: 700; }
+th, td { text-align: left; padding: 0.5rem; border-bottom: 1px solid #b9c4b9; }

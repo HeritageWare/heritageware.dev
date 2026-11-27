@@ -1,0 +1,10 @@
+{
+  "source": null,
+  "profiles": [
+    {"name": "Visual FoxPro", "target": "Visual FoxPro 9.0 SP2", "cases": []},
+    {"name": "dBASE II", "target": "Edition and platform under research", "cases": []},
+    {"name": "dBASE III", "target": "DOS release under research", "cases": []},
+    {"name": "Clipper", "target": "Initial release under research", "cases": []},
+    {"name": "Lotus 1-2-3", "target": "DOS release under research", "cases": []}
+  ]
+}
